@@ -1,0 +1,70 @@
+name: Update Global Yield Curve Database
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 6,18 * * 1-5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: global-yield-curve-database-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh sovereign yield curves
+        run: node scripts/update-yield-curves.mjs
+
+      - name: Rebuild SEO manifest
+        run: node scripts/build-seo-manifest.mjs
+
+      - name: Validate generated database
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const c=JSON.parse(fs.readFileSync('data/catalog.json','utf8'));
+
+          if(!Array.isArray(c.markets) || c.markets.length < 5) process.exit(1);
+
+          const usable=c.markets.filter(m => m.observations > 0);
+          if(usable.length < 4) process.exit(1);
+
+          console.log(`catalog=${c.status}, usable=${usable.length}/${c.markets.length}`);
+
+          for(const m of usable){
+            const d=JSON.parse(fs.readFileSync(`data/markets/${m.id}.json`,'utf8'));
+
+            if(!Array.isArray(d.history) || !d.history.length) process.exit(1);
+
+            console.log(`${m.code}: ${d.history.length} curves through ${d.latestDate}`);
+          }
+          NODE
+
+      - name: Commit refreshed data
+        shell: bash
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No yield-curve changes."
+            exit 0
+          fi
+
+          git config user.name "bondstats-yield-curve-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/
+          git commit -m "chore: refresh global yield curve database"
+          git push
