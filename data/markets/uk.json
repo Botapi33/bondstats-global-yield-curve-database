@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "id": "uk",
+  "code": "UK",
+  "name": "United Kingdom",
+  "slug": "united-kingdom",
+  "currency": "GBP",
+  "source": "Bank of England \u2014 nominal gilt par yields",
+  "sourceUrl": "https://www.bankofengland.co.uk/statistics/yield-curves",
+  "frequency": "daily",
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "latestDate": null,
+  "tenors": [
+    "5Y",
+    "10Y",
+    "20Y"
+  ],
+  "history": []
+}

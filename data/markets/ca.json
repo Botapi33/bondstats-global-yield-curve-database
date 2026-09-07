@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "ca",
+  "code": "CA",
+  "name": "Canada",
+  "slug": "canada",
+  "currency": "CAD",
+  "source": "Bank of Canada Valet API \u2014 benchmark Government of Canada yields",
+  "sourceUrl": "https://www.bankofcanada.ca/valet/docs/",
+  "frequency": "daily",
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "latestDate": null,
+  "tenors": [
+    "2Y",
+    "3Y",
+    "5Y",
+    "7Y",
+    "10Y",
+    "LONG"
+  ],
+  "history": []
+}

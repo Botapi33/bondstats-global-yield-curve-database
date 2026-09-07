@@ -1,0 +1,14 @@
+{
+  "name": "bondstats-global-yield-curve-database",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-yield-curves.mjs",
+    "seo": "node scripts/build-seo-manifest.mjs",
+    "check": "node --check scripts/update-yield-curves.mjs && node --check scripts/build-seo-manifest.mjs && node --check app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

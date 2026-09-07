@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Global Yield Curve Database | BondStats</title>
+  <meta name="description" content="Explore historical sovereign yield curves across major bond markets with date comparison, curve spreads and timeline playback.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="atlas">
+    <header class="atlas-head">
+      <div class="wordmark">BONDSTATS <b>CURVE ATLAS</b></div>
+      <div class="database-state"><span id="dbState">awaiting first refresh</span><i></i></div>
+    </header>
+
+    <section class="atlas-grid">
+      <nav class="market-rail" aria-label="Sovereign markets">
+        <div class="rail-label">MARKETS</div>
+        <div id="marketRail"></div>
+      </nav>
+
+      <section class="curve-stage">
+        <div class="stage-head">
+          <div>
+            <div class="stage-kicker">HISTORICAL SOVEREIGN CURVE</div>
+            <h1 id="marketName">Global Yield Curve Database</h1>
+          </div>
+          <div class="date-ledger">
+            <span>OBSERVATION</span>
+            <strong id="activeDate">—</strong>
+            <small id="frequency">—</small>
+          </div>
+        </div>
+
+        <div class="canvas-shell">
+          <canvas id="curveCanvas"></canvas>
+          <div class="axis-note y">YIELD %</div>
+          <div class="axis-note x">MATURITY</div>
+        </div>
+
+        <div class="curve-table" id="curveTable"></div>
+
+        <section class="time-machine">
+          <div class="time-head">
+            <div>
+              <span>CURVE TIME MACHINE</span>
+              <strong id="periodLabel">—</strong>
+            </div>
+            <div class="play-controls">
+              <button id="prevBtn" aria-label="Previous observation">←</button>
+              <button id="playBtn">PLAY</button>
+              <button id="nextBtn" aria-label="Next observation">→</button>
+            </div>
+          </div>
+          <input id="dateSlider" type="range" min="0" max="0" value="0">
+          <div class="time-ends"><span id="firstDate">—</span><span id="lastDate">—</span></div>
+        </section>
+      </section>
+
+      <aside class="anatomy">
+        <div class="anatomy-title">CURVE ANATOMY</div>
+
+        <section class="anatomy-block">
+          <span>Shape</span>
+          <strong id="shape">—</strong>
+          <small id="shapeNote">Awaiting data</small>
+        </section>
+
+        <section class="anatomy-block spreads">
+          <div><span>2s10s</span><strong id="s2s10">—</strong></div>
+          <div><span>5s30s</span><strong id="s5s30">—</strong></div>
+          <div><span>Short end</span><strong id="shortEnd">—</strong></div>
+          <div><span>Long end</span><strong id="longEnd">—</strong></div>
+        </section>
+
+        <section class="compare-block">
+          <div class="compare-head">
+            <span>GHOST CURVE</span>
+            <button id="clearCompare">CLEAR</button>
+          </div>
+          <label for="compareSelect">Compare active curve with</label>
+          <select id="compareSelect">
+            <option value="">No comparison</option>
+          </select>
+          <div class="ghost-key"><i></i><span id="ghostLabel">comparison off</span></div>
+        </section>
+
+        <section class="source-block">
+          <span>Official source</span>
+          <strong id="sourceName">—</strong>
+          <a id="sourceLink" href="#" target="_blank" rel="noopener">OPEN SOURCE ↗</a>
+        </section>
+
+        <section class="coverage-block">
+          <span>Archive depth</span>
+          <strong id="obsCount">—</strong>
+          <small id="coverage">—</small>
+        </section>
+      </aside>
+    </section>
+
+    <footer class="atlas-foot">
+      <span>CURVE DATABASE · DAILY HISTORICAL OBSERVATIONS WHERE AVAILABLE</span>
+      <span id="generatedAt">—</span>
+    </footer>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

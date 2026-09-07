@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "id": "au",
+  "code": "AU",
+  "name": "Australia",
+  "slug": "australia",
+  "currency": "AUD",
+  "source": "Reserve Bank of Australia \u2014 Capital Market Yields F2",
+  "sourceUrl": "https://www.rba.gov.au/statistics/tables/",
+  "frequency": "daily/weekly publication",
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "latestDate": null,
+  "tenors": [
+    "2Y",
+    "3Y",
+    "5Y",
+    "10Y"
+  ],
+  "history": []
+}

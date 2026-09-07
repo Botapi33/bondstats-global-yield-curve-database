@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "marketCount": 7,
+  "markets": [
+    {
+      "id": "us",
+      "code": "US",
+      "name": "United States",
+      "slug": "united-states",
+      "currency": "USD",
+      "source": "Federal Reserve H.15 via FRED graph CSV",
+      "sourceUrl": "https://fred.stlouisfed.org/",
+      "frequency": "daily",
+      "coverageStart": "1990-01-02",
+      "tenors": [
+        "1M",
+        "3M",
+        "6M",
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "20Y",
+        "30Y"
+      ],
+      "status": "awaiting-first-refresh",
+      "latestDate": null,
+      "observations": 0
+    },
+    {
+      "id": "de",
+      "code": "DE",
+      "name": "Germany",
+      "slug": "germany",
+      "currency": "EUR",
+      "source": "Deutsche Bundesbank SDMX Web Service",
+      "sourceUrl": "https://api.statistiken.bundesbank.de/",
+      "frequency": "daily",
+      "coverageStart": "1997-01-01",
+      "tenors": [
+        "6M",
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "15Y",
+        "20Y",
+        "30Y"
+      ],
+      "status": "awaiting-first-refresh",
+      "latestDate": null,
+      "observations": 0
+    },
+    {
+      "id": "ea",
+      "code": "EA",
+      "name": "Euro Area",
+      "slug": "euro-area",
+      "currency": "EUR",
+      "source": "ECB Data Portal \u2014 all-rated euro government par yield curve",
+      "sourceUrl": "https://data.ecb.europa.eu/data/datasets/YC",
+      "frequency": "daily",
+      "coverageStart": "2004-09-06",
+      "tenors": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "15Y",
+        "20Y",
+        "30Y"
+      ],
+      "status": "awaiting-first-refresh",
+      "latestDate": null,
+      "observations": 0
+    },
+    {
+      "id": "jp",
+      "code": "JP",
+      "name": "Japan",
+      "slug": "japan",
+      "currency": "JPY",
+      "source": "Ministry of Finance Japan \u2014 constant-maturity JGB rates",
+      "sourceUrl": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/",
+      "frequency": "daily",
+      "coverageStart": "1974-09-24",
+      "tenors": [
+        "1Y",
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "15Y",
+        "20Y",
+        "30Y",
+        "40Y"
+      ],
+      "status": "awaiting-first-refresh",
+      "latestDate": null,
+      "observations": 0
+    },
+    {
+      "id": "uk",
+      "code": "UK",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "currency": "GBP",
+      "source": "Bank of England \u2014 nominal gilt par yields",
+      "sourceUrl": "https://www.bankofengland.co.uk/statistics/yield-curves",
+      "frequency": "daily",
+      "coverageStart": "1998-01-01",
+      "tenors": [
+        "5Y",
+        "10Y",
+        "20Y"
+      ],
+      "status": "awaiting-first-refresh",
+      "latestDate": null,
+      "observations": 0
+    },
+    {
+      "id": "ca",
+      "code": "CA",
+      "name": "Canada",
+      "slug": "canada",
+      "currency": "CAD",
+      "source": "Bank of Canada Valet API \u2014 benchmark Government of Canada yields",
+      "sourceUrl": "https://www.bankofcanada.ca/valet/docs/",
+      "frequency": "daily",
+      "coverageStart": "1990-01-01",
+      "tenors": [
+        "2Y",
+        "3Y",
+        "5Y",
+        "7Y",
+        "10Y",
+        "LONG"
+      ],
+      "status": "awaiting-first-refresh",
+      "latestDate": null,
+      "observations": 0
+    },
+    {
+      "id": "au",
+      "code": "AU",
+      "name": "Australia",
+      "slug": "australia",
+      "currency": "AUD",
+      "source": "Reserve Bank of Australia \u2014 Capital Market Yields F2",
+      "sourceUrl": "https://www.rba.gov.au/statistics/tables/",
+      "frequency": "daily/weekly publication",
+      "coverageStart": "2013-05-20",
+      "tenors": [
+        "2Y",
+        "3Y",
+        "5Y",
+        "10Y"
+      ],
+      "status": "awaiting-first-refresh",
+      "latestDate": null,
+      "observations": 0
+    }
+  ]
+}

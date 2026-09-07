@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "us",
+  "code": "US",
+  "name": "United States",
+  "slug": "united-states",
+  "currency": "USD",
+  "source": "Federal Reserve H.15 via FRED graph CSV",
+  "sourceUrl": "https://fred.stlouisfed.org/",
+  "frequency": "daily",
+  "status": "awaiting-first-refresh",
+  "generatedAt": null,
+  "latestDate": null,
+  "tenors": [
+    "1M",
+    "3M",
+    "6M",
+    "1Y",
+    "2Y",
+    "3Y",
+    "5Y",
+    "7Y",
+    "10Y",
+    "20Y",
+    "30Y"
+  ],
+  "history": []
+}
