@@ -1,4 +1,1006 @@
 {
-  "generatedAt": null,
-  "markets": []
+  "generatedAt": "2026-09-07T17:38:50.517Z",
+  "hub": {
+    "path": "/markets/global-yield-curve-database/",
+    "title": "Global Yield Curve Database",
+    "description": "Explore current and historical government yield curves across major sovereign bond markets."
+  },
+  "markets": [
+    {
+      "id": "us",
+      "name": "United States",
+      "slug": "united-states",
+      "latestDate": "2026-09-03",
+      "observationCount": 9175,
+      "countryPage": "/markets/yield-curves/united-states/",
+      "historyPage": "/markets/yield-curves/united-states/history/",
+      "years": [
+        {
+          "year": "2026",
+          "path": "/markets/yield-curves/united-states/2026/",
+          "observationCount": 170
+        },
+        {
+          "year": "2025",
+          "path": "/markets/yield-curves/united-states/2025/",
+          "observationCount": 249
+        },
+        {
+          "year": "2024",
+          "path": "/markets/yield-curves/united-states/2024/",
+          "observationCount": 250
+        },
+        {
+          "year": "2023",
+          "path": "/markets/yield-curves/united-states/2023/",
+          "observationCount": 250
+        },
+        {
+          "year": "2022",
+          "path": "/markets/yield-curves/united-states/2022/",
+          "observationCount": 249
+        },
+        {
+          "year": "2021",
+          "path": "/markets/yield-curves/united-states/2021/",
+          "observationCount": 251
+        },
+        {
+          "year": "2020",
+          "path": "/markets/yield-curves/united-states/2020/",
+          "observationCount": 251
+        },
+        {
+          "year": "2019",
+          "path": "/markets/yield-curves/united-states/2019/",
+          "observationCount": 250
+        },
+        {
+          "year": "2018",
+          "path": "/markets/yield-curves/united-states/2018/",
+          "observationCount": 249
+        },
+        {
+          "year": "2017",
+          "path": "/markets/yield-curves/united-states/2017/",
+          "observationCount": 250
+        },
+        {
+          "year": "2016",
+          "path": "/markets/yield-curves/united-states/2016/",
+          "observationCount": 250
+        },
+        {
+          "year": "2015",
+          "path": "/markets/yield-curves/united-states/2015/",
+          "observationCount": 251
+        },
+        {
+          "year": "2014",
+          "path": "/markets/yield-curves/united-states/2014/",
+          "observationCount": 250
+        },
+        {
+          "year": "2013",
+          "path": "/markets/yield-curves/united-states/2013/",
+          "observationCount": 250
+        },
+        {
+          "year": "2012",
+          "path": "/markets/yield-curves/united-states/2012/",
+          "observationCount": 250
+        },
+        {
+          "year": "2011",
+          "path": "/markets/yield-curves/united-states/2011/",
+          "observationCount": 250
+        },
+        {
+          "year": "2010",
+          "path": "/markets/yield-curves/united-states/2010/",
+          "observationCount": 251
+        },
+        {
+          "year": "2009",
+          "path": "/markets/yield-curves/united-states/2009/",
+          "observationCount": 250
+        },
+        {
+          "year": "2008",
+          "path": "/markets/yield-curves/united-states/2008/",
+          "observationCount": 251
+        },
+        {
+          "year": "2007",
+          "path": "/markets/yield-curves/united-states/2007/",
+          "observationCount": 251
+        },
+        {
+          "year": "2006",
+          "path": "/markets/yield-curves/united-states/2006/",
+          "observationCount": 250
+        },
+        {
+          "year": "2005",
+          "path": "/markets/yield-curves/united-states/2005/",
+          "observationCount": 250
+        },
+        {
+          "year": "2004",
+          "path": "/markets/yield-curves/united-states/2004/",
+          "observationCount": 250
+        },
+        {
+          "year": "2003",
+          "path": "/markets/yield-curves/united-states/2003/",
+          "observationCount": 250
+        },
+        {
+          "year": "2002",
+          "path": "/markets/yield-curves/united-states/2002/",
+          "observationCount": 250
+        },
+        {
+          "year": "2001",
+          "path": "/markets/yield-curves/united-states/2001/",
+          "observationCount": 248
+        },
+        {
+          "year": "2000",
+          "path": "/markets/yield-curves/united-states/2000/",
+          "observationCount": 251
+        },
+        {
+          "year": "1999",
+          "path": "/markets/yield-curves/united-states/1999/",
+          "observationCount": 251
+        },
+        {
+          "year": "1998",
+          "path": "/markets/yield-curves/united-states/1998/",
+          "observationCount": 250
+        },
+        {
+          "year": "1997",
+          "path": "/markets/yield-curves/united-states/1997/",
+          "observationCount": 250
+        },
+        {
+          "year": "1996",
+          "path": "/markets/yield-curves/united-states/1996/",
+          "observationCount": 252
+        },
+        {
+          "year": "1995",
+          "path": "/markets/yield-curves/united-states/1995/",
+          "observationCount": 250
+        },
+        {
+          "year": "1994",
+          "path": "/markets/yield-curves/united-states/1994/",
+          "observationCount": 249
+        },
+        {
+          "year": "1993",
+          "path": "/markets/yield-curves/united-states/1993/",
+          "observationCount": 250
+        },
+        {
+          "year": "1992",
+          "path": "/markets/yield-curves/united-states/1992/",
+          "observationCount": 251
+        },
+        {
+          "year": "1991",
+          "path": "/markets/yield-curves/united-states/1991/",
+          "observationCount": 250
+        },
+        {
+          "year": "1990",
+          "path": "/markets/yield-curves/united-states/1990/",
+          "observationCount": 250
+        }
+      ]
+    },
+    {
+      "id": "de",
+      "name": "Germany",
+      "slug": "germany",
+      "latestDate": "2026-09-07",
+      "observationCount": 7382,
+      "countryPage": "/markets/yield-curves/germany/",
+      "historyPage": "/markets/yield-curves/germany/history/",
+      "years": [
+        {
+          "year": "2026",
+          "path": "/markets/yield-curves/germany/2026/",
+          "observationCount": 174
+        },
+        {
+          "year": "2025",
+          "path": "/markets/yield-curves/germany/2025/",
+          "observationCount": 253
+        },
+        {
+          "year": "2024",
+          "path": "/markets/yield-curves/germany/2024/",
+          "observationCount": 254
+        },
+        {
+          "year": "2023",
+          "path": "/markets/yield-curves/germany/2023/",
+          "observationCount": 255
+        },
+        {
+          "year": "2022",
+          "path": "/markets/yield-curves/germany/2022/",
+          "observationCount": 257
+        },
+        {
+          "year": "2021",
+          "path": "/markets/yield-curves/germany/2021/",
+          "observationCount": 255
+        },
+        {
+          "year": "2020",
+          "path": "/markets/yield-curves/germany/2020/",
+          "observationCount": 254
+        },
+        {
+          "year": "2019",
+          "path": "/markets/yield-curves/germany/2019/",
+          "observationCount": 251
+        },
+        {
+          "year": "2018",
+          "path": "/markets/yield-curves/germany/2018/",
+          "observationCount": 251
+        },
+        {
+          "year": "2017",
+          "path": "/markets/yield-curves/germany/2017/",
+          "observationCount": 252
+        },
+        {
+          "year": "2016",
+          "path": "/markets/yield-curves/germany/2016/",
+          "observationCount": 255
+        },
+        {
+          "year": "2015",
+          "path": "/markets/yield-curves/germany/2015/",
+          "observationCount": 253
+        },
+        {
+          "year": "2014",
+          "path": "/markets/yield-curves/germany/2014/",
+          "observationCount": 252
+        },
+        {
+          "year": "2013",
+          "path": "/markets/yield-curves/germany/2013/",
+          "observationCount": 253
+        },
+        {
+          "year": "2012",
+          "path": "/markets/yield-curves/germany/2012/",
+          "observationCount": 254
+        },
+        {
+          "year": "2011",
+          "path": "/markets/yield-curves/germany/2011/",
+          "observationCount": 257
+        },
+        {
+          "year": "2010",
+          "path": "/markets/yield-curves/germany/2010/",
+          "observationCount": 256
+        },
+        {
+          "year": "2009",
+          "path": "/markets/yield-curves/germany/2009/",
+          "observationCount": 254
+        },
+        {
+          "year": "2008",
+          "path": "/markets/yield-curves/germany/2008/",
+          "observationCount": 254
+        },
+        {
+          "year": "2007",
+          "path": "/markets/yield-curves/germany/2007/",
+          "observationCount": 252
+        },
+        {
+          "year": "2006",
+          "path": "/markets/yield-curves/germany/2006/",
+          "observationCount": 255
+        },
+        {
+          "year": "2005",
+          "path": "/markets/yield-curves/germany/2005/",
+          "observationCount": 257
+        },
+        {
+          "year": "2004",
+          "path": "/markets/yield-curves/germany/2004/",
+          "observationCount": 257
+        },
+        {
+          "year": "2003",
+          "path": "/markets/yield-curves/germany/2003/",
+          "observationCount": 253
+        },
+        {
+          "year": "2002",
+          "path": "/markets/yield-curves/germany/2002/",
+          "observationCount": 253
+        },
+        {
+          "year": "2001",
+          "path": "/markets/yield-curves/germany/2001/",
+          "observationCount": 253
+        },
+        {
+          "year": "2000",
+          "path": "/markets/yield-curves/germany/2000/",
+          "observationCount": 254
+        },
+        {
+          "year": "1999",
+          "path": "/markets/yield-curves/germany/1999/",
+          "observationCount": 253
+        },
+        {
+          "year": "1998",
+          "path": "/markets/yield-curves/germany/1998/",
+          "observationCount": 251
+        },
+        {
+          "year": "1997",
+          "path": "/markets/yield-curves/germany/1997/",
+          "observationCount": 100
+        }
+      ]
+    },
+    {
+      "id": "ea",
+      "name": "Euro Area",
+      "slug": "euro-area",
+      "latestDate": "2026-09-04",
+      "observationCount": 5624,
+      "countryPage": "/markets/yield-curves/euro-area/",
+      "historyPage": "/markets/yield-curves/euro-area/history/",
+      "years": [
+        {
+          "year": "2026",
+          "path": "/markets/yield-curves/euro-area/2026/",
+          "observationCount": 173
+        },
+        {
+          "year": "2025",
+          "path": "/markets/yield-curves/euro-area/2025/",
+          "observationCount": 255
+        },
+        {
+          "year": "2024",
+          "path": "/markets/yield-curves/euro-area/2024/",
+          "observationCount": 255
+        },
+        {
+          "year": "2023",
+          "path": "/markets/yield-curves/euro-area/2023/",
+          "observationCount": 255
+        },
+        {
+          "year": "2022",
+          "path": "/markets/yield-curves/euro-area/2022/",
+          "observationCount": 257
+        },
+        {
+          "year": "2021",
+          "path": "/markets/yield-curves/euro-area/2021/",
+          "observationCount": 257
+        },
+        {
+          "year": "2020",
+          "path": "/markets/yield-curves/euro-area/2020/",
+          "observationCount": 255
+        },
+        {
+          "year": "2019",
+          "path": "/markets/yield-curves/euro-area/2019/",
+          "observationCount": 253
+        },
+        {
+          "year": "2018",
+          "path": "/markets/yield-curves/euro-area/2018/",
+          "observationCount": 253
+        },
+        {
+          "year": "2017",
+          "path": "/markets/yield-curves/euro-area/2017/",
+          "observationCount": 255
+        },
+        {
+          "year": "2016",
+          "path": "/markets/yield-curves/euro-area/2016/",
+          "observationCount": 257
+        },
+        {
+          "year": "2015",
+          "path": "/markets/yield-curves/euro-area/2015/",
+          "observationCount": 254
+        },
+        {
+          "year": "2014",
+          "path": "/markets/yield-curves/euro-area/2014/",
+          "observationCount": 255
+        },
+        {
+          "year": "2013",
+          "path": "/markets/yield-curves/euro-area/2013/",
+          "observationCount": 255
+        },
+        {
+          "year": "2012",
+          "path": "/markets/yield-curves/euro-area/2012/",
+          "observationCount": 256
+        },
+        {
+          "year": "2011",
+          "path": "/markets/yield-curves/euro-area/2011/",
+          "observationCount": 257
+        },
+        {
+          "year": "2010",
+          "path": "/markets/yield-curves/euro-area/2010/",
+          "observationCount": 258
+        },
+        {
+          "year": "2009",
+          "path": "/markets/yield-curves/euro-area/2009/",
+          "observationCount": 256
+        },
+        {
+          "year": "2008",
+          "path": "/markets/yield-curves/euro-area/2008/",
+          "observationCount": 256
+        },
+        {
+          "year": "2007",
+          "path": "/markets/yield-curves/euro-area/2007/",
+          "observationCount": 255
+        },
+        {
+          "year": "2006",
+          "path": "/markets/yield-curves/euro-area/2006/",
+          "observationCount": 255
+        },
+        {
+          "year": "2005",
+          "path": "/markets/yield-curves/euro-area/2005/",
+          "observationCount": 257
+        },
+        {
+          "year": "2004",
+          "path": "/markets/yield-curves/euro-area/2004/",
+          "observationCount": 85
+        }
+      ]
+    },
+    {
+      "id": "jp",
+      "name": "Japan",
+      "slug": "japan",
+      "latestDate": "2026-09-04",
+      "observationCount": 13294,
+      "countryPage": "/markets/yield-curves/japan/",
+      "historyPage": "/markets/yield-curves/japan/history/",
+      "years": [
+        {
+          "year": "2026",
+          "path": "/markets/yield-curves/japan/2026/",
+          "observationCount": 165
+        },
+        {
+          "year": "2025",
+          "path": "/markets/yield-curves/japan/2025/",
+          "observationCount": 243
+        },
+        {
+          "year": "2024",
+          "path": "/markets/yield-curves/japan/2024/",
+          "observationCount": 245
+        },
+        {
+          "year": "2023",
+          "path": "/markets/yield-curves/japan/2023/",
+          "observationCount": 246
+        },
+        {
+          "year": "2022",
+          "path": "/markets/yield-curves/japan/2022/",
+          "observationCount": 244
+        },
+        {
+          "year": "2021",
+          "path": "/markets/yield-curves/japan/2021/",
+          "observationCount": 245
+        },
+        {
+          "year": "2020",
+          "path": "/markets/yield-curves/japan/2020/",
+          "observationCount": 243
+        },
+        {
+          "year": "2019",
+          "path": "/markets/yield-curves/japan/2019/",
+          "observationCount": 241
+        },
+        {
+          "year": "2018",
+          "path": "/markets/yield-curves/japan/2018/",
+          "observationCount": 245
+        },
+        {
+          "year": "2017",
+          "path": "/markets/yield-curves/japan/2017/",
+          "observationCount": 247
+        },
+        {
+          "year": "2016",
+          "path": "/markets/yield-curves/japan/2016/",
+          "observationCount": 245
+        },
+        {
+          "year": "2015",
+          "path": "/markets/yield-curves/japan/2015/",
+          "observationCount": 244
+        },
+        {
+          "year": "2014",
+          "path": "/markets/yield-curves/japan/2014/",
+          "observationCount": 244
+        },
+        {
+          "year": "2013",
+          "path": "/markets/yield-curves/japan/2013/",
+          "observationCount": 245
+        },
+        {
+          "year": "2012",
+          "path": "/markets/yield-curves/japan/2012/",
+          "observationCount": 248
+        },
+        {
+          "year": "2011",
+          "path": "/markets/yield-curves/japan/2011/",
+          "observationCount": 245
+        },
+        {
+          "year": "2010",
+          "path": "/markets/yield-curves/japan/2010/",
+          "observationCount": 245
+        },
+        {
+          "year": "2009",
+          "path": "/markets/yield-curves/japan/2009/",
+          "observationCount": 243
+        },
+        {
+          "year": "2008",
+          "path": "/markets/yield-curves/japan/2008/",
+          "observationCount": 245
+        },
+        {
+          "year": "2007",
+          "path": "/markets/yield-curves/japan/2007/",
+          "observationCount": 245
+        },
+        {
+          "year": "2006",
+          "path": "/markets/yield-curves/japan/2006/",
+          "observationCount": 248
+        },
+        {
+          "year": "2005",
+          "path": "/markets/yield-curves/japan/2005/",
+          "observationCount": 245
+        },
+        {
+          "year": "2004",
+          "path": "/markets/yield-curves/japan/2004/",
+          "observationCount": 246
+        },
+        {
+          "year": "2003",
+          "path": "/markets/yield-curves/japan/2003/",
+          "observationCount": 245
+        },
+        {
+          "year": "2002",
+          "path": "/markets/yield-curves/japan/2002/",
+          "observationCount": 246
+        },
+        {
+          "year": "2001",
+          "path": "/markets/yield-curves/japan/2001/",
+          "observationCount": 246
+        },
+        {
+          "year": "2000",
+          "path": "/markets/yield-curves/japan/2000/",
+          "observationCount": 248
+        },
+        {
+          "year": "1999",
+          "path": "/markets/yield-curves/japan/1999/",
+          "observationCount": 245
+        },
+        {
+          "year": "1998",
+          "path": "/markets/yield-curves/japan/1998/",
+          "observationCount": 247
+        },
+        {
+          "year": "1997",
+          "path": "/markets/yield-curves/japan/1997/",
+          "observationCount": 245
+        },
+        {
+          "year": "1996",
+          "path": "/markets/yield-curves/japan/1996/",
+          "observationCount": 247
+        },
+        {
+          "year": "1995",
+          "path": "/markets/yield-curves/japan/1995/",
+          "observationCount": 249
+        },
+        {
+          "year": "1994",
+          "path": "/markets/yield-curves/japan/1994/",
+          "observationCount": 247
+        },
+        {
+          "year": "1993",
+          "path": "/markets/yield-curves/japan/1993/",
+          "observationCount": 246
+        },
+        {
+          "year": "1992",
+          "path": "/markets/yield-curves/japan/1992/",
+          "observationCount": 247
+        },
+        {
+          "year": "1991",
+          "path": "/markets/yield-curves/japan/1991/",
+          "observationCount": 246
+        },
+        {
+          "year": "1990",
+          "path": "/markets/yield-curves/japan/1990/",
+          "observationCount": 246
+        },
+        {
+          "year": "1989",
+          "path": "/markets/yield-curves/japan/1989/",
+          "observationCount": 249
+        },
+        {
+          "year": "1988",
+          "path": "/markets/yield-curves/japan/1988/",
+          "observationCount": 273
+        },
+        {
+          "year": "1987",
+          "path": "/markets/yield-curves/japan/1987/",
+          "observationCount": 274
+        },
+        {
+          "year": "1986",
+          "path": "/markets/yield-curves/japan/1986/",
+          "observationCount": 279
+        },
+        {
+          "year": "1985",
+          "path": "/markets/yield-curves/japan/1985/",
+          "observationCount": 285
+        },
+        {
+          "year": "1984",
+          "path": "/markets/yield-curves/japan/1984/",
+          "observationCount": 287
+        },
+        {
+          "year": "1983",
+          "path": "/markets/yield-curves/japan/1983/",
+          "observationCount": 286
+        },
+        {
+          "year": "1982",
+          "path": "/markets/yield-curves/japan/1982/",
+          "observationCount": 285
+        },
+        {
+          "year": "1981",
+          "path": "/markets/yield-curves/japan/1981/",
+          "observationCount": 285
+        },
+        {
+          "year": "1980",
+          "path": "/markets/yield-curves/japan/1980/",
+          "observationCount": 285
+        },
+        {
+          "year": "1979",
+          "path": "/markets/yield-curves/japan/1979/",
+          "observationCount": 286
+        },
+        {
+          "year": "1978",
+          "path": "/markets/yield-curves/japan/1978/",
+          "observationCount": 285
+        },
+        {
+          "year": "1977",
+          "path": "/markets/yield-curves/japan/1977/",
+          "observationCount": 286
+        },
+        {
+          "year": "1976",
+          "path": "/markets/yield-curves/japan/1976/",
+          "observationCount": 286
+        },
+        {
+          "year": "1975",
+          "path": "/markets/yield-curves/japan/1975/",
+          "observationCount": 284
+        },
+        {
+          "year": "1974",
+          "path": "/markets/yield-curves/japan/1974/",
+          "observationCount": 77
+        }
+      ]
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "latestDate": "2026-09-03",
+      "observationCount": 7244,
+      "countryPage": "/markets/yield-curves/united-kingdom/",
+      "historyPage": "/markets/yield-curves/united-kingdom/history/",
+      "years": [
+        {
+          "year": "2026",
+          "path": "/markets/yield-curves/united-kingdom/2026/",
+          "observationCount": 170
+        },
+        {
+          "year": "2025",
+          "path": "/markets/yield-curves/united-kingdom/2025/",
+          "observationCount": 253
+        },
+        {
+          "year": "2024",
+          "path": "/markets/yield-curves/united-kingdom/2024/",
+          "observationCount": 254
+        },
+        {
+          "year": "2023",
+          "path": "/markets/yield-curves/united-kingdom/2023/",
+          "observationCount": 251
+        },
+        {
+          "year": "2022",
+          "path": "/markets/yield-curves/united-kingdom/2022/",
+          "observationCount": 250
+        },
+        {
+          "year": "2021",
+          "path": "/markets/yield-curves/united-kingdom/2021/",
+          "observationCount": 253
+        },
+        {
+          "year": "2020",
+          "path": "/markets/yield-curves/united-kingdom/2020/",
+          "observationCount": 254
+        },
+        {
+          "year": "2019",
+          "path": "/markets/yield-curves/united-kingdom/2019/",
+          "observationCount": 253
+        },
+        {
+          "year": "2018",
+          "path": "/markets/yield-curves/united-kingdom/2018/",
+          "observationCount": 253
+        },
+        {
+          "year": "2017",
+          "path": "/markets/yield-curves/united-kingdom/2017/",
+          "observationCount": 252
+        },
+        {
+          "year": "2016",
+          "path": "/markets/yield-curves/united-kingdom/2016/",
+          "observationCount": 253
+        },
+        {
+          "year": "2015",
+          "path": "/markets/yield-curves/united-kingdom/2015/",
+          "observationCount": 253
+        },
+        {
+          "year": "2014",
+          "path": "/markets/yield-curves/united-kingdom/2014/",
+          "observationCount": 253
+        },
+        {
+          "year": "2013",
+          "path": "/markets/yield-curves/united-kingdom/2013/",
+          "observationCount": 253
+        },
+        {
+          "year": "2012",
+          "path": "/markets/yield-curves/united-kingdom/2012/",
+          "observationCount": 252
+        },
+        {
+          "year": "2011",
+          "path": "/markets/yield-curves/united-kingdom/2011/",
+          "observationCount": 251
+        },
+        {
+          "year": "2010",
+          "path": "/markets/yield-curves/united-kingdom/2010/",
+          "observationCount": 253
+        },
+        {
+          "year": "2009",
+          "path": "/markets/yield-curves/united-kingdom/2009/",
+          "observationCount": 253
+        },
+        {
+          "year": "2008",
+          "path": "/markets/yield-curves/united-kingdom/2008/",
+          "observationCount": 254
+        },
+        {
+          "year": "2007",
+          "path": "/markets/yield-curves/united-kingdom/2007/",
+          "observationCount": 253
+        },
+        {
+          "year": "2006",
+          "path": "/markets/yield-curves/united-kingdom/2006/",
+          "observationCount": 252
+        },
+        {
+          "year": "2005",
+          "path": "/markets/yield-curves/united-kingdom/2005/",
+          "observationCount": 252
+        },
+        {
+          "year": "2004",
+          "path": "/markets/yield-curves/united-kingdom/2004/",
+          "observationCount": 254
+        },
+        {
+          "year": "2003",
+          "path": "/markets/yield-curves/united-kingdom/2003/",
+          "observationCount": 253
+        },
+        {
+          "year": "2002",
+          "path": "/markets/yield-curves/united-kingdom/2002/",
+          "observationCount": 252
+        },
+        {
+          "year": "2001",
+          "path": "/markets/yield-curves/united-kingdom/2001/",
+          "observationCount": 253
+        },
+        {
+          "year": "2000",
+          "path": "/markets/yield-curves/united-kingdom/2000/",
+          "observationCount": 252
+        },
+        {
+          "year": "1999",
+          "path": "/markets/yield-curves/united-kingdom/1999/",
+          "observationCount": 252
+        },
+        {
+          "year": "1998",
+          "path": "/markets/yield-curves/united-kingdom/1998/",
+          "observationCount": 253
+        }
+      ]
+    },
+    {
+      "id": "au",
+      "name": "Australia",
+      "slug": "australia",
+      "latestDate": "2026-09-02",
+      "observationCount": 3268,
+      "countryPage": "/markets/yield-curves/australia/",
+      "historyPage": "/markets/yield-curves/australia/history/",
+      "years": [
+        {
+          "year": "2026",
+          "path": "/markets/yield-curves/australia/2026/",
+          "observationCount": 170
+        },
+        {
+          "year": "2025",
+          "path": "/markets/yield-curves/australia/2025/",
+          "observationCount": 252
+        },
+        {
+          "year": "2024",
+          "path": "/markets/yield-curves/australia/2024/",
+          "observationCount": 253
+        },
+        {
+          "year": "2023",
+          "path": "/markets/yield-curves/australia/2023/",
+          "observationCount": 251
+        },
+        {
+          "year": "2022",
+          "path": "/markets/yield-curves/australia/2022/",
+          "observationCount": 250
+        },
+        {
+          "year": "2021",
+          "path": "/markets/yield-curves/australia/2021/",
+          "observationCount": 252
+        },
+        {
+          "year": "2020",
+          "path": "/markets/yield-curves/australia/2020/",
+          "observationCount": 254
+        },
+        {
+          "year": "2019",
+          "path": "/markets/yield-curves/australia/2019/",
+          "observationCount": 252
+        },
+        {
+          "year": "2018",
+          "path": "/markets/yield-curves/australia/2018/",
+          "observationCount": 251
+        },
+        {
+          "year": "2017",
+          "path": "/markets/yield-curves/australia/2017/",
+          "observationCount": 250
+        },
+        {
+          "year": "2016",
+          "path": "/markets/yield-curves/australia/2016/",
+          "observationCount": 251
+        },
+        {
+          "year": "2015",
+          "path": "/markets/yield-curves/australia/2015/",
+          "observationCount": 252
+        },
+        {
+          "year": "2014",
+          "path": "/markets/yield-curves/australia/2014/",
+          "observationCount": 246
+        },
+        {
+          "year": "2013",
+          "path": "/markets/yield-curves/australia/2013/",
+          "observationCount": 84
+        }
+      ]
+    }
+  ]
 }
