@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "partial",
-  "generatedAt": "2026-09-08T11:27:34.863Z",
+  "generatedAt": "2026-09-08T14:06:43.377Z",
   "marketCount": 7,
   "markets": [
     {
@@ -10,8 +10,8 @@
       "name": "United States",
       "slug": "united-states",
       "currency": "USD",
-      "source": "Federal Reserve H.15 via FRED graph CSV",
-      "sourceUrl": "https://fred.stlouisfed.org/",
+      "source": "U.S. Department of the Treasury — Daily Treasury Par Yield Curve Rates",
+      "sourceUrl": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rate-archives",
       "frequency": "daily",
       "tenors": [
         "1M",
@@ -26,9 +26,10 @@
         "20Y",
         "30Y"
       ],
-      "status": "live",
+      "status": "stale",
       "latestDate": "2026-09-03",
-      "observations": 9175
+      "observations": 9175,
+      "lastError": "us: no observations"
     },
     {
       "id": "de",
