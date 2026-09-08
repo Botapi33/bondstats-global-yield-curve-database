@@ -10,8 +10,8 @@ const MARKET_DIR = path.join(DATA_DIR, 'markets');
 const MARKET_META = {
   us: {
     code:'US', name:'United States', slug:'united-states', currency:'USD',
-    source:'Federal Reserve H.15 via FRED graph CSV',
-    sourceUrl:'https://fred.stlouisfed.org/',
+    source:'U.S. Department of the Treasury — Daily Treasury Par Yield Curve Rates',
+    sourceUrl:'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rate-archives',
     frequency:'daily',
     tenors:['1M','3M','6M','1Y','2Y','3Y','5Y','7Y','10Y','20Y','30Y']
   },
@@ -189,22 +189,68 @@ async function readPrevious(id) {
   catch { return null; }
 }
 
-/* ---------- US: Federal Reserve H.15 / FRED graph CSV ---------- */
+/* ---------- US: U.S. Treasury official XML feed ---------- */
+function xmlEntityDecode(value){
+  return String(value ?? '')
+    .replace(/&amp;/g,'&')
+    .replace(/&lt;/g,'<')
+    .replace(/&gt;/g,'>')
+    .replace(/&quot;/g,'"')
+    .replace(/&#39;/g,"'");
+}
+
+function treasuryTag(entry, tag){
+  const re=new RegExp(`<d:${tag}[^>]*>([\\\\s\\\\S]*?)<\\\\/d:${tag}>`,'i');
+  const m=entry.match(re);
+  return m ? xmlEntityDecode(m[1].trim()) : null;
+}
+
+function parseTreasuryEntries(xml){
+  return [...xml.matchAll(/<entry\b[\s\S]*?<\/entry>/gi)].map(m=>m[0]);
+}
+
 async function buildUS() {
-  const map={
-    '1M':'DGS1MO','3M':'DGS3MO','6M':'DGS6MO','1Y':'DGS1','2Y':'DGS2','3Y':'DGS3',
-    '5Y':'DGS5','7Y':'DGS7','10Y':'DGS10','20Y':'DGS20','30Y':'DGS30'
+  const tagMap={
+    '1M':'BC_1MONTH',
+    '3M':'BC_3MONTH',
+    '6M':'BC_6MONTH',
+    '1Y':'BC_1YEAR',
+    '2Y':'BC_2YEAR',
+    '3Y':'BC_3YEAR',
+    '5Y':'BC_5YEAR',
+    '7Y':'BC_7YEAR',
+    '10Y':'BC_10YEAR',
+    '20Y':'BC_20YEAR',
+    '30Y':'BC_30YEAR'
   };
-  const out={};
-  for (const [tenor,id] of Object.entries(map)) {
-    const url=`https://fred.stlouisfed.org/graph/fredgraph.csv?id=${id}&cosd=${START.us}`;
-    const rows=parseCsv(await fetchText(url));
-    const header=rows[0].map(x=>x.toLowerCase());
-    const di=header.findIndex(x=>x.includes('date'));
-    const vi=header.findIndex((x,i)=>i!==di && (x.toUpperCase()===id || x.includes(id.toLowerCase())));
-    out[tenor]=rows.slice(1).map(r=>({date:normalizeDate(r[di]),value:parseNumber(r[vi])})).filter(r=>r.date&&r.value!=null);
+
+  const byDate=new Map();
+
+  for(let page=0; page<80; page++){
+    const url=`https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=all&page=${page}`;
+    const xml=await fetchText(url,{headers:{accept:'application/atom+xml,application/xml,text/xml,*/*'}});
+    const entries=parseTreasuryEntries(xml);
+
+    if(!entries.length) break;
+
+    for(const entry of entries){
+      const date=normalizeDate(treasuryTag(entry,'NEW_DATE'));
+      if(!date || date<START.us) continue;
+
+      const curve={};
+      for(const [tenor,tag] of Object.entries(tagMap)){
+        const value=parseNumber(treasuryTag(entry,tag));
+        if(value!=null) curve[tenor]=value;
+      }
+
+      if(Object.keys(curve).length>=2) byDate.set(date,{date,curve});
+    }
+
+    if(entries.length<250) break;
   }
-  return finalize('us',mergeTenorSeries(out));
+
+  const history=[...byDate.values()].sort((a,b)=>a.date.localeCompare(b.date));
+  return finalize('us',history);
 }
 
 /* ---------- Germany: Bundesbank daily Svensson curve ---------- */

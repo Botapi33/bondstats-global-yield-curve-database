@@ -1,7 +1,9 @@
 # Data Sources
 
 ## United States
-Federal Reserve H.15 constant-maturity Treasury series via FRED graph CSV. The source series are DGS1MO, DGS3MO, DGS6MO, DGS1, DGS2, DGS3, DGS5, DGS7, DGS10, DGS20 and DGS30.
+U.S. Department of the Treasury Daily Treasury Par Yield Curve Rates, obtained directly from the Treasury's official XML feed and archive. The adapter uses 1M, 3M, 6M, 1Y, 2Y, 3Y, 5Y, 7Y, 10Y, 20Y and 30Y maturities where published.
+
+This replaces the earlier FRED relay so BondStats receives the U.S. sovereign curve directly from the original government publisher.
 
 ## Germany
 Deutsche Bundesbank SDMX Web Service. Daily Svensson-model yield-curve series for listed Federal securities, using residual maturities from six months through thirty years.

@@ -41,7 +41,7 @@ The source architecture is modular so Switzerland, New Zealand, Sweden, Norway a
 
 The updater uses public official or central-bank endpoints:
 
-- United States — Federal Reserve H.15 series exposed by FRED graph CSV
+- United States — U.S. Department of the Treasury Daily Treasury Par Yield Curve XML feed
 - Germany — Deutsche Bundesbank SDMX REST API
 - Euro Area — ECB Data Portal SDMX REST API
 - Japan — Ministry of Finance historical JGB constant-maturity CSV
