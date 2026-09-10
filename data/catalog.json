@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "partial",
-  "generatedAt": "2026-09-10T11:30:08.612Z",
+  "generatedAt": "2026-09-10T20:56:40.881Z",
   "marketCount": 7,
   "markets": [
     {
@@ -101,9 +101,10 @@
         "30Y",
         "40Y"
       ],
-      "status": "live",
+      "status": "stale",
       "latestDate": "2026-09-09",
-      "observations": 13297
+      "observations": 13297,
+      "lastError": "HTTP 503"
     },
     {
       "id": "uk",
