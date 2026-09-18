@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "partial",
-  "generatedAt": "2026-09-18T11:26:42.910Z",
+  "generatedAt": "2026-09-18T20:59:05.153Z",
   "marketCount": 7,
   "markets": [
     {
@@ -76,9 +76,10 @@
         "20Y",
         "30Y"
       ],
-      "status": "live",
+      "status": "stale",
       "latestDate": "2026-09-17",
-      "observations": 5633
+      "observations": 5633,
+      "lastError": "This operation was aborted"
     },
     {
       "id": "jp",

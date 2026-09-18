@@ -19,7 +19,7 @@
     "20Y",
     "30Y"
   ],
-  "status": "live",
+  "status": "stale",
   "generatedAt": "2026-09-18T11:27:21.098Z",
   "latestDate": "2026-09-17",
   "observations": 5633,
@@ -78886,5 +78886,7 @@
         "30Y": 4.268556
       }
     }
-  ]
+  ],
+  "refreshAttemptAt": "2026-09-18T21:00:57.833Z",
+  "lastError": "This operation was aborted"
 }
