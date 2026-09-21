@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:01:11.220Z",
+  "generatedAt": "2026-09-21T13:00:29.240Z",
   "hub": {
     "path": "/markets/global-yield-curve-database/",
     "title": "Global Yield Curve Database",
@@ -206,15 +206,15 @@
       "id": "de",
       "name": "Germany",
       "slug": "germany",
-      "latestDate": "2026-09-18",
-      "observationCount": 7391,
+      "latestDate": "2026-09-21",
+      "observationCount": 7392,
       "countryPage": "/markets/yield-curves/germany/",
       "historyPage": "/markets/yield-curves/germany/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/germany/2026/",
-          "observationCount": 183
+          "observationCount": 184
         },
         {
           "year": "2025",
@@ -367,15 +367,15 @@
       "id": "ea",
       "name": "Euro Area",
       "slug": "euro-area",
-      "latestDate": "2026-09-17",
-      "observationCount": 5633,
+      "latestDate": "2026-09-18",
+      "observationCount": 5634,
       "countryPage": "/markets/yield-curves/euro-area/",
       "historyPage": "/markets/yield-curves/euro-area/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/euro-area/2026/",
-          "observationCount": 182
+          "observationCount": 183
         },
         {
           "year": "2025",
@@ -769,15 +769,15 @@
       "id": "uk",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "latestDate": "2026-09-16",
-      "observationCount": 7253,
+      "latestDate": "2026-09-17",
+      "observationCount": 7254,
       "countryPage": "/markets/yield-curves/united-kingdom/",
       "historyPage": "/markets/yield-curves/united-kingdom/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/united-kingdom/2026/",
-          "observationCount": 179
+          "observationCount": 180
         },
         {
           "year": "2025",
