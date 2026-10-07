@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T13:37:56.578Z",
+  "generatedAt": "2026-10-07T23:13:25.994Z",
   "hub": {
     "path": "/markets/global-yield-curve-database/",
     "title": "Global Yield Curve Database",
@@ -769,15 +769,15 @@
       "id": "uk",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "latestDate": "2026-10-05",
-      "observationCount": 7266,
+      "latestDate": "2026-10-02",
+      "observationCount": 7265,
       "countryPage": "/markets/yield-curves/united-kingdom/",
       "historyPage": "/markets/yield-curves/united-kingdom/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/united-kingdom/2026/",
-          "observationCount": 192
+          "observationCount": 191
         },
         {
           "year": "2025",

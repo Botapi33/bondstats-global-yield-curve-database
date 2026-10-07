@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "partial",
-  "generatedAt": "2026-10-07T13:35:48.407Z",
+  "generatedAt": "2026-10-07T23:11:03.588Z",
   "marketCount": 7,
   "markets": [
     {
@@ -120,8 +120,8 @@
         "20Y"
       ],
       "status": "live",
-      "latestDate": "2026-10-05",
-      "observations": 7266
+      "latestDate": "2026-10-02",
+      "observations": 7265
     },
     {
       "id": "ca",
