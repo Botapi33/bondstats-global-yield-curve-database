@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "partial",
-  "generatedAt": "2026-10-21T21:49:10.492Z",
+  "generatedAt": "2026-10-22T12:04:24.603Z",
   "marketCount": 7,
   "markets": [
     {
@@ -53,8 +53,8 @@
         "30Y"
       ],
       "status": "live",
-      "latestDate": "2026-10-21",
-      "observations": 7414
+      "latestDate": "2026-10-22",
+      "observations": 7415
     },
     {
       "id": "ea",
@@ -77,8 +77,8 @@
         "30Y"
       ],
       "status": "live",
-      "latestDate": "2026-10-20",
-      "observations": 5656
+      "latestDate": "2026-10-21",
+      "observations": 5657
     },
     {
       "id": "jp",
@@ -102,8 +102,8 @@
         "40Y"
       ],
       "status": "live",
-      "latestDate": "2026-10-20",
-      "observations": 13322
+      "latestDate": "2026-10-21",
+      "observations": 13323
     },
     {
       "id": "uk",
@@ -120,8 +120,8 @@
         "20Y"
       ],
       "status": "live",
-      "latestDate": "2026-10-16",
-      "observations": 7275
+      "latestDate": "2026-10-20",
+      "observations": 7277
     },
     {
       "id": "ca",
