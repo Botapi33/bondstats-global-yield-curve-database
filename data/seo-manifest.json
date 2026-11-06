@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:43:06.739Z",
+  "generatedAt": "2026-11-06T14:25:50.291Z",
   "hub": {
     "path": "/markets/global-yield-curve-database/",
     "title": "Global Yield Curve Database",
@@ -206,15 +206,15 @@
       "id": "de",
       "name": "Germany",
       "slug": "germany",
-      "latestDate": "2026-11-05",
-      "observationCount": 7425,
+      "latestDate": "2026-11-06",
+      "observationCount": 7426,
       "countryPage": "/markets/yield-curves/germany/",
       "historyPage": "/markets/yield-curves/germany/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/germany/2026/",
-          "observationCount": 217
+          "observationCount": 218
         },
         {
           "year": "2025",
@@ -367,15 +367,15 @@
       "id": "ea",
       "name": "Euro Area",
       "slug": "euro-area",
-      "latestDate": "2026-11-04",
-      "observationCount": 5667,
+      "latestDate": "2026-11-05",
+      "observationCount": 5668,
       "countryPage": "/markets/yield-curves/euro-area/",
       "historyPage": "/markets/yield-curves/euro-area/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/euro-area/2026/",
-          "observationCount": 216
+          "observationCount": 217
         },
         {
           "year": "2025",
@@ -493,15 +493,15 @@
       "id": "jp",
       "name": "Japan",
       "slug": "japan",
-      "latestDate": "2026-11-04",
-      "observationCount": 13332,
+      "latestDate": "2026-11-05",
+      "observationCount": 13333,
       "countryPage": "/markets/yield-curves/japan/",
       "historyPage": "/markets/yield-curves/japan/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/japan/2026/",
-          "observationCount": 203
+          "observationCount": 204
         },
         {
           "year": "2025",
@@ -769,15 +769,15 @@
       "id": "uk",
       "name": "United Kingdom",
       "slug": "united-kingdom",
-      "latestDate": "2026-11-03",
-      "observationCount": 7287,
+      "latestDate": "2026-11-04",
+      "observationCount": 7288,
       "countryPage": "/markets/yield-curves/united-kingdom/",
       "historyPage": "/markets/yield-curves/united-kingdom/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/united-kingdom/2026/",
-          "observationCount": 213
+          "observationCount": 214
         },
         {
           "year": "2025",
@@ -925,15 +925,15 @@
       "id": "au",
       "name": "Australia",
       "slug": "australia",
-      "latestDate": "2026-10-28",
-      "observationCount": 3307,
+      "latestDate": "2026-11-04",
+      "observationCount": 3312,
       "countryPage": "/markets/yield-curves/australia/",
       "historyPage": "/markets/yield-curves/australia/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/australia/2026/",
-          "observationCount": 209
+          "observationCount": 214
         },
         {
           "year": "2025",
