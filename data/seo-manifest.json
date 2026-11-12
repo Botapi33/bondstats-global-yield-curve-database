@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T14:37:39.549Z",
+  "generatedAt": "2026-11-12T00:51:08.478Z",
   "hub": {
     "path": "/markets/global-yield-curve-database/",
     "title": "Global Yield Curve Database",
@@ -493,15 +493,15 @@
       "id": "jp",
       "name": "Japan",
       "slug": "japan",
-      "latestDate": "2026-11-10",
-      "observationCount": 13336,
+      "latestDate": "2026-11-11",
+      "observationCount": 13337,
       "countryPage": "/markets/yield-curves/japan/",
       "historyPage": "/markets/yield-curves/japan/history/",
       "years": [
         {
           "year": "2026",
           "path": "/markets/yield-curves/japan/2026/",
-          "observationCount": 207
+          "observationCount": 208
         },
         {
           "year": "2025",
