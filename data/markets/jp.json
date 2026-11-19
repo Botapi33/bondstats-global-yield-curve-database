@@ -20,7 +20,7 @@
     "30Y",
     "40Y"
   ],
-  "status": "live",
+  "status": "stale",
   "generatedAt": "2026-11-18T15:50:21.321Z",
   "latestDate": "2026-11-17",
   "observations": 13341,
@@ -172152,5 +172152,7 @@
         "40Y": 4.101
       }
     }
-  ]
+  ],
+  "refreshAttemptAt": "2026-11-19T00:32:35.400Z",
+  "lastError": "HTTP 503"
 }
