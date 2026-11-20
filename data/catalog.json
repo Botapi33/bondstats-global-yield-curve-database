@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "partial",
-  "generatedAt": "2026-11-19T15:53:26.467Z",
+  "generatedAt": "2026-11-20T00:41:23.559Z",
   "marketCount": 7,
   "markets": [
     {
@@ -102,8 +102,8 @@
         "40Y"
       ],
       "status": "live",
-      "latestDate": "2026-11-18",
-      "observations": 13342
+      "latestDate": "2026-11-19",
+      "observations": 13343
     },
     {
       "id": "uk",
